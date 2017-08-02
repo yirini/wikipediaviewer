@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto'); 
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color:#F2F0F1;
+  background:url(image/blue-wallpaper-1.jpg)
+  no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  }
+
+.navbar-brand {
+  font-size: 1.8em;
+}
+
+#headline {
+  font-size: 1.8em;
+  font-weight:200;
+}
+
+.spacer {
+    padding: 2%;
+  }
+
+.text-center {
+  margin-top: 180px;
+  color:white;
+}
+
+.form-control {
+  margin-top:100px;
+  width: 100%;
+  }
+
+#output {
+  margin-top: 80px;
+  font-weight: 200;
+}
+
+ .description {
+  color: #FEFBE8;
+  line-height: 1.5em;
+  font-weight: 200;
+} 
+
+#search {
+  margin-top: 30px;
+  background-color: #3BA9E4;
+  width:40%;
+  text-transform: uppercase;
+ }
+
+ #search:hover {
+  transform: skewX(20deg);
+  transition: transform 1s;
+}
+ 
+ #subject{
+  margin-top: 100px;
+  font-weight: 200;
+ }  
+
+a:link {
+  color:#E8D0DD;
+}
+
+a:link:hover {
+  color: #E8D0DD;
+  text-decoration: none;
+}
+
+
